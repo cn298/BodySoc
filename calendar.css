@@ -9,4 +9,6 @@
 .n28 {
 	font-weight: bold;
 	font-size: 22px;
-}
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+} )

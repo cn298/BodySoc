@@ -2,7 +2,8 @@
 <head>
 	<title>Calendar</title>
 	<link rel="stylesheet" type="text/css" href="calendar.css">
-	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<h1>Calendar</h1>
@@ -51,19 +52,20 @@
 			<td>25</td>
 			<td>26</td>
 			<td>27</td>
-			<td class="n28">
-				<br>28
-					<span class="hover1">Royal Holloway University Dance Competition</span>
-					<span class="hover1">This year we will be entering in the categories of Jazz, Ballet, Tap, Contemporary, Solo/Duo/Trio and Hip-Hop so dancers of all styles can get involved! A great day out as we get to compete against other competitions, watch other uni dance teams and their choreograph, and even watch the guest judges give special performances!</span>
-				</br>
+			<td>
+				<a class="n28">28</a>
 			</td>
 		</tr>
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 class="div2">
 			<td>29</td>
 			<td>20</td>
-			<td colspan=5 border=1></td>
+			<td colspan=5 border=5></td>
 		</tr>
-		<t
-	</table>
+		</table>
+	<script>
+		$(document).ready(function() {
+			$('.n28').tooltip({ title: "<h1>Royal Holloway University Dance Competition</h1>This year we will be entering in the categories of Jazz, Ballet, Tap, Contemporary, Solo/Duo/Trio and Hip-Hop so dancers of all styles can get involved! A great day out as we get to compete against other competitions, watch other uni dance teams and their choreograph, and even watch the guest judges give special performances!</font>", html: true, placement:"bottom"});
+		});
+	</script>
 </body>
 </html>
