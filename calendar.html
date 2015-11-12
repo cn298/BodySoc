@@ -2,13 +2,18 @@
 <head>
 	<title>Calendar</title>
 	<link rel="stylesheet" type="text/css" href="calendar.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<a href=""></a>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<h1>Calendar</h1>
 	<h2>November 2015</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<div class="table-responsive">
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 				<td>Sunday</td>
 				<td>Monday</td>
@@ -67,7 +72,7 @@
 		</tr>
 		</table>
 	<h2>December 2015</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 				<td>Sunday</td>
 				<td>Monday</td>
@@ -127,7 +132,7 @@
 		</tr>
 		</table>
 		<h2>January 2016</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 				<td>Sunday</td>
 				<td>Monday</td>
@@ -193,7 +198,7 @@
 		</tr>
 		</table>
 			<h2>February 2016</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 				<td>Sunday</td>
 				<td>Monday</td>
@@ -250,7 +255,7 @@
 		</tr>
 		</table>
 		<h2>March 2016</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 			<td>Sunday</td>
 			<td>Monday</td>
@@ -311,7 +316,7 @@
 		</tr>
 		</table>
 	<h2>April 2016</h2>
-	<table border=1 cellspacing=0 cellpadding=20 align=center>
+	<table border=1 cellspacing=0 cellpadding=20 align=center class="table">
 		<tr cellspacing=0 cellpadding=0 border=1 width=200 id="div1">
 			<td>Sunday</td>
 			<td>Monday</td>
@@ -373,13 +378,14 @@
 			<td>30</td>
 		</tr>
 		</table>
+	</div>
 	<script>
 		$(document).ready(function() {
-			$('.n28').tooltip({ title: "<h1>Royal Holloway University Dance Competition</h1><h20>This year we will be entering in the categories of Jazz, Ballet, Tap, Contemporary, Solo/Duo/Trio and Hip-Hop so dancers of all styles can get involved! A great day out as we get to compete against other competitions, watch other uni dance teams and their choreograph, and even watch the guest judges give special performances!</h20>", html: true, placement:"bottom"});
-			$('.d5').tooltip({ title: "<h1>Christmas Show</h1><h20>Get involved as much as you like with choreographing or participating in dancing, with signups and no auditions so ANYONE can perform in the new Arts Theatre!</h20>", html:true, placement:"bottom"});
-			$('.d9').tooltip({ title: "<h1>Loughborough Auditions</h1><h20>Missed out joining the competition teams in for the first comp? Come to the auditions to add members to the competition teams for the Lougborough competition!</h20>", html:true, placement:"bottom"});
-			$('.m12').tooltip({ title: "<h1>Loughborough University Dance Competition</h1><h20>This is the biggest competition we take part in all year and is so much fun! It is a whole weekend event and we will be entering all dance categories in both advanced and novice, so this is the one to get involved in for sure!</h20>", html:true, placement:"bottom"});
-			$('.a14').tooltip({ title: "<h1>BodySoc Annual April Dance Show</h1><h20>This is the big one people! You can sign up for as many dances as you can physically do (depending on how quickly you can get changed in the wings!) and anyone can choreograph a dance too! The atmosphere is amazing and you will have an awesome time!</h20>", html:true, placement:"bottom"});
+			$('.n28').tooltip({ title: "<h5>Royal Holloway University Dance Competition</h5><h20>This year we will be entering in the categories of Jazz, Ballet, Tap, Contemporary, Solo/Duo/Trio and Hip-Hop so dancers of all styles can get involved! A great day out as we get to compete against other competitions, watch other uni dance teams and their choreograph, and even watch the guest judges give special performances!</h20>", html: true, placement:"bottom"});
+			$('.d5').tooltip({ title: "<h5>Christmas Show</h5><h20>Get involved as much as you like with choreographing or participating in dancing, with signups and no auditions so ANYONE can perform in the new Arts Theatre!</h20>", html:true, placement:"bottom"});
+			$('.d9').tooltip({ title: "<h5>Loughborough Auditions</h5><h20>Missed out joining the competition teams in for the first comp? Come to the auditions to add members to the competition teams for the Lougborough competition!</h20>", html:true, placement:"bottom"});
+			$('.m12').tooltip({ title: "<h5>Loughborough University Dance Competition</h5><h20>This is the biggest competition we take part in all year and is so much fun! It is a whole weekend event and we will be entering all dance categories in both advanced and novice, so this is the one to get involved in for sure!</h20>", html:true, placement:"bottom"});
+			$('.a14').tooltip({ title: "<h5>BodySoc Annual April Dance Show</h5><h20>This is the big one people! You can sign up for as many dances as you can physically do (depending on how quickly you can get changed in the wings!) and anyone can choreograph a dance too! The atmosphere is amazing and you will have an awesome time!</h20>", html:true, placement:"bottom"});
 		});
 	</script>
 </body>

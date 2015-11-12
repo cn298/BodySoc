@@ -1,6 +1,7 @@
 #div1 {
 	font-size: 20px;
 	font-weight: bold;
+	text-align: center;
 }
 .div2 {
 	text-align: center;
@@ -8,21 +9,27 @@
 }
 .n28 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size:30px;
 }
 .d5 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 30px;
 }
 .d9 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 30px;
 }
 .m12 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 30px;
 }
 .a14 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 30px;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
 }
