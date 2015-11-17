@@ -11,6 +11,10 @@ tr {
   	page-break-inside: avoid;
 }
 
+body {
+  background: url("img/show2013_6.jpg");
+}
+
 #div1 {
 	font-size: 20px;
 	font-weight: bold;
